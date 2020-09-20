@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,203,72,1) 0%, rgba(0,255,228,1) 83%);
+}
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,203,72,1) 0%, rgba(0,255,228,1) 83%);
+}
+
+header img {
+    max-width: 200px;
+}
