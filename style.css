@@ -82,7 +82,7 @@ display: block;
 }
 .carousel {
 	width: inherit;
-	overflow: scroll hidden;
+	overflow: scroll;
 	padding: 30px;
 	position: relative;
 }
