@@ -81,7 +81,7 @@ display: block;
 	color: white;
 }
 .carousel {
-	width: inherit;
+	width: 100%;
 	overflow: scroll;
 	padding: 30px;
 	position: relative;
@@ -92,7 +92,6 @@ display: block;
 	padding-bottom: 10px;
 }
 .carousel__item {
-	background-color: #FF0000;
 	width: 200px;
 	height: 250px;
 	border-radius: 25px;
@@ -108,7 +107,7 @@ display: block;
 	transform: translate3d(100px, 0, 0);
 }
 .carousel__container:hover .carousel__item{
-opacity: 0.4;
+opacity: 0.3;
 }
 .carousel__container:hover .carousel__item:hover {
 	transform: scale(1.5);
