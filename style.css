@@ -139,7 +139,6 @@ opacity: 0.4;
 }
 .carousel__item__icons img {
 	height: 50px;
-	display: inline;
 }
 .carousel__item__title {
 	margin: inherit;
