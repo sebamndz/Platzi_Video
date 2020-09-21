@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 .body {
+	max-width: none;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 600;
 		margin: 0;
@@ -80,8 +81,8 @@ display: block;
 	color: white;
 }
 .carousel {
-	width: 100%;
-	overflow: scroll;
+	width: inherit;
+	overflow: scroll hidden;
 	padding: 30px;
 	position: relative;
 }
@@ -151,4 +152,22 @@ opacity: 0.4;
 	margin: inherit;
 	color: #FFFFFF;
 
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 30px;
+	min-height: calc(100vh - 200px);
+}
+.login_container {
+	background-color: #00000010 ;
+	border: 2px solid #FFFFFF;
+	border-radius: 25px;
+	color: #FFFFFF;
+	padding: 60px 68px 40px;
+	min-height: 700px;
+	width: 300px;
 }
