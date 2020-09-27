@@ -99,7 +99,7 @@ logo img { max-width: 200px; }
 
 .register_button { background-color: #00000010; border: none; border-radius: 25px; color: #FFFFFF; cursor: pointer; font-size: 16px; font-weight: bold; height: 45px; letter-spacing: 1px; margin: 10px 0px; }
 
-.register_container_data > input { background-color: transparent; border-top: 0px; border-right: 0px; border-bottom: 2px solid white; border-left: 0px; height: 50px; font-family: 'Quicksand', sans-serif; font-size: 16px; margin-bottom: 20px; padding: 0px 20px; outline: none; }
+.register_container_data > input { background-color: transparent; border-bottom: 2px solid white; border-left: 0px; border-right: 0px; border-top: 0px; font-family: 'Quicksand', sans-serif; font-size: 16px; height: 50px; margin-bottom: 20px; outline: none; padding: 0px 20px; }
 
 .register_login { display: flex; justify-content: center; text-decoration: none; }
 
