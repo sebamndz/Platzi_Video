@@ -305,16 +305,16 @@ opacity: 0.3;
 }
 .register_container_data > input{
 	background-color: transparent;
-	border-top: 0px;
-	border-right: 0px;
 	border-bottom: 2px solid white;
 	border-left: 0px;
-	height: 50px;
+	border-right: 0px;
+	border-top: 0px;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
+	height: 50px;
 	margin-bottom: 20px;
-	padding: 0px 20px;
 	outline: none;
+	padding: 0px 20px;
 }
 .register_login {
 	display: flex;
